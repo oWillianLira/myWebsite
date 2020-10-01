@@ -1,5 +1,6 @@
-// $(document).ready(function(){
-// });
+$(document).ready(function(){
+    $('a[href^="mailto:"], a[href^="tel:"]').addClass('dark');
+});
 
 // Saudação por período do dia
 function greeting() {
