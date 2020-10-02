@@ -1,5 +1,5 @@
 <?php
-// Simplifying the 'call the field' functions
+// Simplifying the 'get the field' functions
 function get_field2($key, $page_id = 0) {
     $id = $page_id !== 0 ? $page_id : get_the_ID();
     return get_post_meta($id, $key, true);

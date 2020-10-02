@@ -12,6 +12,11 @@ function cmb_general() {
     ]);
 
     $cmb->add_field([
+        'name'  =>  'My age',
+        'id'  =>  'age',
+        'type'  =>  'text',
+    ]);
+    $cmb->add_field([
         'name'  =>  'My phone',
         'id'  =>  'phone',
         'type'  =>  'text',

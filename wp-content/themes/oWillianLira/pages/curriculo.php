@@ -35,7 +35,7 @@ $general = get_page_by_title('General Data')->ID;
     <div class="container">
         <div class="cv_intro">
             <h2>Willian dos Santos Lira</h2>
-            <p>Brasileiro — <span id="age">22</span> anos</p>
+            <p>Brasileiro — <?php the_field2('age', $general); ?> anos</p>
             <p><strong>Endereço:</strong> <?php the_field2('address'); ?></p>
             <p><strong>Contatos:</strong> <a class="dark" target="_blank" href="tel:<?php echo cleaning(get_field2('phone', $general)); ?>"><?php the_field2('phone', $general); ?></a> — <a class="dark" target="_blank" href="mailto:<?php the_field2('email', $general); ?>"><?php the_field2('email', $general); ?></a></p>
 
@@ -55,10 +55,10 @@ $general = get_page_by_title('General Data')->ID;
 
                     <?php $techs = get_field2('technologies');
                     if(isset($techs)){ foreach ($techs as $tech) { ?>
-                        <div class="item">
+                        <a class="item">
                             <h2><?php echo $tech['name']; ?></h2>
                             <span class="years"><?php echo $tech['xp']; ?></span>
-                        </div>
+                        </a>
                     <?php }; }; ?>
                 </div>
             </div>
@@ -74,10 +74,13 @@ $general = get_page_by_title('General Data')->ID;
                         </div>
                         <div class="txt">
                             <h4>Formação Acadêmica</h4>
-                            <p>
-                                Bacharel em Ciências da Computação – Universidade Guarulhos <br>
-                                ( Concluído em 06/2020 )
-                            </p>
+                            <?php $courses = get_field2('academics');
+                            if(isset($courses)){ foreach ($courses as $couse) { ?>
+                                <p>
+                                    <?php echo $couse['name']; ?> <br>
+                                    ( Concluído em <?php echo $couse['conclusion']; ?>)
+                                </p>
+                            <?php }; }; ?>
                         </div>
                     </div>
                     
@@ -87,9 +90,12 @@ $general = get_page_by_title('General Data')->ID;
                         </div>
                         <div class="txt">
                             <h4>Idiomas</h4>
-                            <p>
-                                Inglês avançado ( Leitura – Escrita – Conversação )
-                            </p>
+                            <?php $idioms = get_field2('idioms');
+                            if(isset($idioms)){ foreach ($idioms as $idiom) { ?>
+                                <p>
+                                    <?php echo $idiom['idiom']; ?>
+                                </p>
+                            <?php }; }; ?>
                         </div>
                     </div>
 
@@ -99,14 +105,13 @@ $general = get_page_by_title('General Data')->ID;
                         </div>
                         <div class="txt">
                             <h4>Experiências profissionais</h4>
-                            <p>
-                                <strong>Agência Neon ( 08/2019 – Atualmente ) | Desenvolvedor Web Front-End JR</strong> <br>
-                                – Desenvolvimento de sites institucionais e lojas virtuais utilizando o CMS WordPress
-                            </p> <br>
-                            <p>
-                                <strong>Equipe Soluções Inteligentes ( 01/2017 – 07/2019 ) | Consultor de Suporte Técnico</strong> <br>
-                                – Suporte técnico aos clientes via chat e telefone referente aos softwares da empresa
-                            </p>
+                            <?php $experience = get_field2('experience');
+                            if(isset($experience)){ foreach ($experience as $xp) { ?>
+                                <p>
+                                    <strong><?php echo $xp['company']; ?></strong> <br>
+                                    – <?php echo $xp['desc']; ?>                                    
+                                </p> <br>
+                            <?php }; }; ?>
                         </div>
                     </div>
                 </div>
