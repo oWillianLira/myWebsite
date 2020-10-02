@@ -1,5 +1,5 @@
 <?php
-    // Funções para Limpar o Header
+    // Cleaning the Header
         remove_action('wp_head', 'rsd_link');
         remove_action('wp_head', 'wlwmanifest_link');
         remove_action('wp_head', 'start_post_rel_link', 10, 0 );
@@ -10,9 +10,9 @@
         remove_action('admin_print_scripts', 'print_emoji_detection_script');
         remove_action('wp_print_styles', 'print_emoji_styles');
         remove_action('admin_print_styles', 'print_emoji_styles');
-    // Funções para Limpar o Header
+    // Cleaning the Header
 
-    // Registrando Scripts e Styles
+    // Registering Scripts e Styles
     function owillianlira_scripts() {
         // Atualizando o jQuery
         wp_deregister_script('jquery');
@@ -51,7 +51,7 @@
     }
     add_action( 'wp_enqueue_scripts', 'owillianlira_scripts' );
 
-    // Habilitando suporte a 'Logo pelo painel'
+    // Enable 'Logo from panel'
     function theme_setup(){
         add_theme_support( 'custom-logo', array(
             'height'      => 80,
@@ -64,14 +64,99 @@
         add_theme_support( 'post-thumbnails' );
     }
     add_action('after_setup_theme','theme_setup');
-    // Habilitando suporte a 'Logo pelo painel'
+    // Enable 'Logo from panel'
 
-    // Habilitar Menus
+    // Enable Menus
         add_theme_support('menus');
 
         function register_menu() {
             register_nav_menu('personal-menu',__( 'myMenu' ));
         }
         add_action( 'init', 'register_menu' );
-    // Habilitar Menus
+    // Enable Menus
+
+    // Cleaning the phone number for links
+    function cleaning($value){
+        $value = trim($value);
+        $value = str_replace(" ", "", $value);
+        $value = str_replace(".", "", $value);
+        $value = str_replace(",", "", $value);
+        $value = str_replace("-", "", $value);
+        $value = str_replace("_", "", $value);
+        $value = str_replace("/", "", $value);
+        return $value;
+    }
+    // Cleaning the phone number for links
+
+    // OWL Custom Fields
+    function get_field2($key, $page_id = 0) {
+        $id = $page_id !== 0 ? $page_id : get_the_ID();
+        return get_post_meta($id, $key, true);
+    }
+
+    function the_field2($key, $page_id = 0) {
+        echo get_field2($key, $page_id);
+    }
+
+    add_action('cmb2_admin_init', 'cmb_general');
+    function cmb_general() {
+        $cmb = new_cmb2_box([
+            'id'    =>  'general_fields',
+            'title' =>  'General infos',
+            'object_types'  =>  ['page'],
+            'show_on'   =>  [ 'value' =>  118 ],
+        ]);
+
+        $cmb->add_field([
+            'name'  =>  'My phone',
+            'id'  =>  'phone',
+            'type'  =>  'text',
+        ]);
+        $cmb->add_field([
+            'name'  =>  'My E-mail',
+            'id'  =>  'email',
+            'type'  =>  'text',
+        ]);
+        $cmb->add_field([
+            'name'  =>  'LinkedIn',
+            'id'  =>  'linkedin',
+            'type'  =>  'text',
+        ]);
+        $cmb->add_field([
+            'name'  =>  'GitHub',
+            'id'  =>  'git',
+            'type'  =>  'text',
+        ]);
+        $cmb->add_field([
+            'name'  =>  'Instagram',
+            'id'  =>  'instagram',
+            'type'  =>  'text',
+        ]);
+    };
+
+    add_action('cmb2_admin_init', 'cmb_resume');
+    function cmb_resume() {
+        $cmb = new_cmb2_box([
+            'id'    =>  'resume_fields',
+            'title' =>  'Resume infos',
+            'object_types'  =>  ['page'],
+            'show_on'   =>  [
+                'key'   =>  'page-template',
+                'value' =>  'pages/curriculo.php',
+            ],
+        ]);
+
+        $cmb->add_field([
+            'name'  =>  'My Address',
+            'id'  =>  'address',
+            'type'  =>  'textarea_small',
+        ]);
+
+        $cmb->add_field([
+            'name'  =>  'Abstract',
+            'id'  =>  'abstract',
+            'type'  =>  'textarea_small',
+        ]);
+    };
+    // OWL Custom Fields
 ?>
