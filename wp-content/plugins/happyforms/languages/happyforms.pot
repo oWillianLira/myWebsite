@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the HappyForms package.
 msgid ""
 msgstr ""
-"Project-Id-Version: HappyForms 1.9.20\n"
+"Project-Id-Version: HappyForms 1.9.21\n"
 "Report-Msgid-Bugs-To: https://thethemefoundry.com/support/\n"
-"POT-Creation-Date: 2020-09-17 17:30:23+00:00\n"
+"POT-Creation-Date: 2020-10-02 14:58:27+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1455,544 +1455,544 @@ msgstr ""
 msgid "Gabon"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1150 core/helpers/helper-misc.php:447
-msgid "United Kingdom"
-msgstr ""
-
-#: core/helpers/helper-form-templates.php:1151 core/helpers/helper-misc.php:310
+#: core/helpers/helper-form-templates.php:1150 core/helpers/helper-misc.php:310
 msgid "Grenada"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1152 core/helpers/helper-misc.php:304
+#: core/helpers/helper-form-templates.php:1151 core/helpers/helper-misc.php:304
 msgid "Georgia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1153 core/helpers/helper-misc.php:306
+#: core/helpers/helper-form-templates.php:1152 core/helpers/helper-misc.php:306
 msgid "Ghana"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1154 core/helpers/helper-misc.php:307
+#: core/helpers/helper-form-templates.php:1153 core/helpers/helper-misc.php:307
 msgid "Gibraltar"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1155 core/helpers/helper-misc.php:309
+#: core/helpers/helper-form-templates.php:1154 core/helpers/helper-misc.php:309
 msgid "Greenland"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1156 core/helpers/helper-misc.php:303
+#: core/helpers/helper-form-templates.php:1155 core/helpers/helper-misc.php:303
 msgid "Gambia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1157 core/helpers/helper-misc.php:314
+#: core/helpers/helper-form-templates.php:1156 core/helpers/helper-misc.php:314
 msgid "Guinea"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1158 core/helpers/helper-misc.php:308
+#: core/helpers/helper-form-templates.php:1157 core/helpers/helper-misc.php:308
 msgid "Greece"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1159 core/helpers/helper-misc.php:313
+#: core/helpers/helper-form-templates.php:1158 core/helpers/helper-misc.php:313
 msgid "Guatemala"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1160 core/helpers/helper-misc.php:312
+#: core/helpers/helper-form-templates.php:1159 core/helpers/helper-misc.php:312
 msgid "Guam"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1161
+#: core/helpers/helper-form-templates.php:1160
 msgid "Guinea-bissau"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1162 core/helpers/helper-misc.php:316
+#: core/helpers/helper-form-templates.php:1161 core/helpers/helper-misc.php:316
 msgid "Guyana"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1163 core/helpers/helper-misc.php:321
+#: core/helpers/helper-form-templates.php:1162 core/helpers/helper-misc.php:321
 msgid "Hong Kong"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1164 core/helpers/helper-misc.php:320
+#: core/helpers/helper-form-templates.php:1163 core/helpers/helper-misc.php:320
 msgid "Honduras"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1165
+#: core/helpers/helper-form-templates.php:1164
 msgid "Croatia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1166 core/helpers/helper-misc.php:317
+#: core/helpers/helper-form-templates.php:1165 core/helpers/helper-misc.php:317
 msgid "Haiti"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1167 core/helpers/helper-misc.php:322
+#: core/helpers/helper-form-templates.php:1166 core/helpers/helper-misc.php:322
 msgid "Hungary"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1168 core/helpers/helper-misc.php:325
+#: core/helpers/helper-form-templates.php:1167 core/helpers/helper-misc.php:325
 msgid "Indonesia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1169 core/helpers/helper-misc.php:328
+#: core/helpers/helper-form-templates.php:1168 core/helpers/helper-misc.php:328
 msgid "Ireland"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1170 core/helpers/helper-misc.php:329
+#: core/helpers/helper-form-templates.php:1169 core/helpers/helper-misc.php:329
 msgid "Israel"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1171 core/helpers/helper-misc.php:324
+#: core/helpers/helper-form-templates.php:1170 core/helpers/helper-misc.php:324
 msgid "India"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1172 core/helpers/helper-misc.php:327
+#: core/helpers/helper-form-templates.php:1171 core/helpers/helper-misc.php:327
 msgid "Iraq"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1173
+#: core/helpers/helper-form-templates.php:1172
 msgid "Iran, Islamic Republic of"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1174 core/helpers/helper-misc.php:323
+#: core/helpers/helper-form-templates.php:1173 core/helpers/helper-misc.php:323
 msgid "Iceland"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1175 core/helpers/helper-misc.php:330
+#: core/helpers/helper-form-templates.php:1174 core/helpers/helper-misc.php:330
 msgid "Italy"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1176 core/helpers/helper-misc.php:331
+#: core/helpers/helper-form-templates.php:1175 core/helpers/helper-misc.php:331
 msgid "Jamaica"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1177 core/helpers/helper-misc.php:333
+#: core/helpers/helper-form-templates.php:1176 core/helpers/helper-misc.php:333
 msgid "Jordan"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1178 core/helpers/helper-misc.php:332
+#: core/helpers/helper-form-templates.php:1177 core/helpers/helper-misc.php:332
 msgid "Japan"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1179 core/helpers/helper-misc.php:335
+#: core/helpers/helper-form-templates.php:1178 core/helpers/helper-misc.php:335
 msgid "Kenya"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1180 core/helpers/helper-misc.php:340
+#: core/helpers/helper-form-templates.php:1179 core/helpers/helper-misc.php:340
 msgid "Kyrgyzstan"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1181 core/helpers/helper-misc.php:259
+#: core/helpers/helper-form-templates.php:1180 core/helpers/helper-misc.php:259
 msgid "Cambodia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1182 core/helpers/helper-misc.php:336
+#: core/helpers/helper-form-templates.php:1181 core/helpers/helper-misc.php:336
 msgid "Kiribati"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1183 core/helpers/helper-misc.php:271
+#: core/helpers/helper-form-templates.php:1182 core/helpers/helper-misc.php:271
 msgid "Comoros"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1184 core/helpers/helper-misc.php:403
+#: core/helpers/helper-form-templates.php:1183 core/helpers/helper-misc.php:403
 msgid "Saint Kitts and Nevis"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1185
+#: core/helpers/helper-form-templates.php:1184
 msgid "Korea Democratic Peoples Republic of"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1186
+#: core/helpers/helper-form-templates.php:1185
 msgid "Korea Republic of"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1187 core/helpers/helper-misc.php:339
+#: core/helpers/helper-form-templates.php:1186 core/helpers/helper-misc.php:339
 msgid "Kuwait"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1188 core/helpers/helper-misc.php:263
+#: core/helpers/helper-form-templates.php:1187 core/helpers/helper-misc.php:263
 msgid "Cayman Islands"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1189
+#: core/helpers/helper-form-templates.php:1188
 msgid "Lao Peoples Democratic Republic"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1190 core/helpers/helper-misc.php:343
+#: core/helpers/helper-form-templates.php:1189 core/helpers/helper-misc.php:343
 msgid "Lebanon"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1191 core/helpers/helper-misc.php:404
+#: core/helpers/helper-form-templates.php:1190 core/helpers/helper-misc.php:404
 msgid "Saint Lucia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1192 core/helpers/helper-misc.php:347
+#: core/helpers/helper-form-templates.php:1191 core/helpers/helper-misc.php:347
 msgid "Liechtenstein"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1193 core/helpers/helper-misc.php:421
+#: core/helpers/helper-form-templates.php:1192 core/helpers/helper-misc.php:421
 msgid "Sri Lanka"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1194 core/helpers/helper-misc.php:345
+#: core/helpers/helper-form-templates.php:1193 core/helpers/helper-misc.php:345
 msgid "Liberia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1195 core/helpers/helper-misc.php:344
+#: core/helpers/helper-form-templates.php:1194 core/helpers/helper-misc.php:344
 msgid "Lesotho"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1196 core/helpers/helper-misc.php:348
+#: core/helpers/helper-form-templates.php:1195 core/helpers/helper-misc.php:348
 msgid "Lithuania"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1197 core/helpers/helper-misc.php:349
+#: core/helpers/helper-form-templates.php:1196 core/helpers/helper-misc.php:349
 msgid "Luxembourg"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1198 core/helpers/helper-misc.php:342
+#: core/helpers/helper-form-templates.php:1197 core/helpers/helper-misc.php:342
 msgid "Latvia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1199 core/helpers/helper-misc.php:346
+#: core/helpers/helper-form-templates.php:1198 core/helpers/helper-misc.php:346
 msgid "Libyan Arab Jamahiriya"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1200 core/helpers/helper-misc.php:369
+#: core/helpers/helper-form-templates.php:1199 core/helpers/helper-misc.php:369
 msgid "Morocco"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1201 core/helpers/helper-misc.php:366
+#: core/helpers/helper-form-templates.php:1200 core/helpers/helper-misc.php:366
 msgid "Monaco"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1202 core/helpers/helper-misc.php:365
+#: core/helpers/helper-form-templates.php:1201 core/helpers/helper-misc.php:365
 msgid "Moldova, Republic of"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1203
+#: core/helpers/helper-form-templates.php:1202
 msgid "Montenegro"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1204 core/helpers/helper-misc.php:352
+#: core/helpers/helper-form-templates.php:1203 core/helpers/helper-misc.php:352
 msgid "Madagascar"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1205 core/helpers/helper-misc.php:358
+#: core/helpers/helper-form-templates.php:1204 core/helpers/helper-misc.php:358
 msgid "Marshall Islands"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1206 core/helpers/helper-misc.php:351
+#: core/helpers/helper-form-templates.php:1205 core/helpers/helper-misc.php:351
 msgid "Macedonia, The Former Yugoslav Republic of"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1207 core/helpers/helper-misc.php:356
+#: core/helpers/helper-form-templates.php:1206 core/helpers/helper-misc.php:356
 msgid "Mali"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1208 core/helpers/helper-misc.php:371
+#: core/helpers/helper-form-templates.php:1207 core/helpers/helper-misc.php:371
 msgid "Myanmar"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1209 core/helpers/helper-misc.php:367
+#: core/helpers/helper-form-templates.php:1208 core/helpers/helper-misc.php:367
 msgid "Mongolia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1210 core/helpers/helper-misc.php:350
+#: core/helpers/helper-form-templates.php:1209 core/helpers/helper-misc.php:350
 msgid "Macau"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1211 core/helpers/helper-misc.php:384
+#: core/helpers/helper-form-templates.php:1210 core/helpers/helper-misc.php:384
 msgid "Northern Mariana Islands"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1212 core/helpers/helper-misc.php:360
+#: core/helpers/helper-form-templates.php:1211 core/helpers/helper-misc.php:360
 msgid "Mauritania"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1213 core/helpers/helper-misc.php:368
+#: core/helpers/helper-form-templates.php:1212 core/helpers/helper-misc.php:368
 msgid "Montserrat"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1214 core/helpers/helper-misc.php:357
+#: core/helpers/helper-form-templates.php:1213 core/helpers/helper-misc.php:357
 msgid "Malta"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1215 core/helpers/helper-misc.php:361
+#: core/helpers/helper-form-templates.php:1214 core/helpers/helper-misc.php:361
 msgid "Mauritius"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1216 core/helpers/helper-misc.php:355
+#: core/helpers/helper-form-templates.php:1215 core/helpers/helper-misc.php:355
 msgid "Maldives"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1217 core/helpers/helper-misc.php:353
+#: core/helpers/helper-form-templates.php:1216 core/helpers/helper-misc.php:353
 msgid "Malawi"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1218 core/helpers/helper-misc.php:363
+#: core/helpers/helper-form-templates.php:1217 core/helpers/helper-misc.php:363
 msgid "Mexico"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1219 core/helpers/helper-misc.php:354
+#: core/helpers/helper-form-templates.php:1218 core/helpers/helper-misc.php:354
 msgid "Malaysia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1220 core/helpers/helper-misc.php:370
+#: core/helpers/helper-form-templates.php:1219 core/helpers/helper-misc.php:370
 msgid "Mozambique"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1221 core/helpers/helper-misc.php:372
+#: core/helpers/helper-form-templates.php:1220 core/helpers/helper-misc.php:372
 msgid "Namibia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1222 core/helpers/helper-misc.php:377
+#: core/helpers/helper-form-templates.php:1221 core/helpers/helper-misc.php:377
 msgid "New Caledonia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1223 core/helpers/helper-misc.php:380
+#: core/helpers/helper-form-templates.php:1222 core/helpers/helper-misc.php:380
 msgid "Niger"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1224 core/helpers/helper-misc.php:381
+#: core/helpers/helper-form-templates.php:1223 core/helpers/helper-misc.php:381
 msgid "Nigeria"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1225 core/helpers/helper-misc.php:379
+#: core/helpers/helper-form-templates.php:1224 core/helpers/helper-misc.php:379
 msgid "Nicaragua"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1226 core/helpers/helper-misc.php:375
+#: core/helpers/helper-form-templates.php:1225 core/helpers/helper-misc.php:375
 msgid "Netherlands"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1227 core/helpers/helper-misc.php:385
+#: core/helpers/helper-form-templates.php:1226 core/helpers/helper-misc.php:385
 msgid "Norway"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1228 core/helpers/helper-misc.php:374
+#: core/helpers/helper-form-templates.php:1227 core/helpers/helper-misc.php:374
 msgid "Nepal"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1229 core/helpers/helper-misc.php:373
+#: core/helpers/helper-form-templates.php:1228 core/helpers/helper-misc.php:373
 msgid "Nauru"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1230 core/helpers/helper-misc.php:382
+#: core/helpers/helper-form-templates.php:1229 core/helpers/helper-misc.php:382
 msgid "Niue"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1231 core/helpers/helper-misc.php:378
+#: core/helpers/helper-form-templates.php:1230 core/helpers/helper-misc.php:378
 msgid "New Zealand"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1232 core/helpers/helper-misc.php:386
+#: core/helpers/helper-form-templates.php:1231 core/helpers/helper-misc.php:386
 msgid "Oman"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1233 core/helpers/helper-misc.php:389
+#: core/helpers/helper-form-templates.php:1232 core/helpers/helper-misc.php:389
 msgid "Panama"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1234 core/helpers/helper-misc.php:392
+#: core/helpers/helper-form-templates.php:1233 core/helpers/helper-misc.php:392
 msgid "Peru"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1235 core/helpers/helper-misc.php:300
+#: core/helpers/helper-form-templates.php:1234 core/helpers/helper-misc.php:300
 msgid "French Polynesia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1236 core/helpers/helper-misc.php:390
+#: core/helpers/helper-form-templates.php:1235 core/helpers/helper-misc.php:390
 msgid "Papua New Guinea"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1237 core/helpers/helper-misc.php:393
+#: core/helpers/helper-form-templates.php:1236 core/helpers/helper-misc.php:393
 msgid "Philippines"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1238 core/helpers/helper-misc.php:387
+#: core/helpers/helper-form-templates.php:1237 core/helpers/helper-misc.php:387
 msgid "Pakistan"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1239 core/helpers/helper-misc.php:395
+#: core/helpers/helper-form-templates.php:1238 core/helpers/helper-misc.php:395
 msgid "Poland"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1240
+#: core/helpers/helper-form-templates.php:1239
 msgid "Saint Pierre and Miquelon"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1241 core/helpers/helper-misc.php:394
+#: core/helpers/helper-form-templates.php:1240 core/helpers/helper-misc.php:394
 msgid "Pitcairn"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1242 core/helpers/helper-misc.php:396
+#: core/helpers/helper-form-templates.php:1241 core/helpers/helper-misc.php:396
 msgid "Portugal"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1243 core/helpers/helper-misc.php:388
+#: core/helpers/helper-form-templates.php:1242 core/helpers/helper-misc.php:388
 msgid "Palau"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1244 core/helpers/helper-misc.php:391
+#: core/helpers/helper-form-templates.php:1243 core/helpers/helper-misc.php:391
 msgid "Paraguay"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1245 core/helpers/helper-misc.php:398
+#: core/helpers/helper-form-templates.php:1244 core/helpers/helper-misc.php:398
 msgid "Qatar"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1246 core/helpers/helper-misc.php:400
+#: core/helpers/helper-form-templates.php:1245 core/helpers/helper-misc.php:400
 msgid "Romania"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1247
+#: core/helpers/helper-form-templates.php:1246
 msgid "Serbia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1248 core/helpers/helper-misc.php:401
+#: core/helpers/helper-form-templates.php:1247 core/helpers/helper-misc.php:401
 msgid "Russian Federation"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1249 core/helpers/helper-misc.php:402
+#: core/helpers/helper-form-templates.php:1248 core/helpers/helper-misc.php:402
 msgid "Rwanda"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1250 core/helpers/helper-misc.php:409
+#: core/helpers/helper-form-templates.php:1249 core/helpers/helper-misc.php:409
 msgid "Saudi Arabia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1251 core/helpers/helper-misc.php:416
+#: core/helpers/helper-form-templates.php:1250 core/helpers/helper-misc.php:416
 msgid "Solomon Islands"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1252 core/helpers/helper-misc.php:411
+#: core/helpers/helper-form-templates.php:1251 core/helpers/helper-misc.php:411
 msgid "Seychelles"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1253 core/helpers/helper-misc.php:424
+#: core/helpers/helper-form-templates.php:1252 core/helpers/helper-misc.php:424
 msgid "Sudan"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1254 core/helpers/helper-misc.php:428
+#: core/helpers/helper-form-templates.php:1253 core/helpers/helper-misc.php:428
 msgid "Sweden"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1255 core/helpers/helper-misc.php:413
+#: core/helpers/helper-form-templates.php:1254 core/helpers/helper-misc.php:413
 msgid "Singapore"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1256
+#: core/helpers/helper-form-templates.php:1255
 msgid "Saint Helena"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1257 core/helpers/helper-misc.php:415
+#: core/helpers/helper-form-templates.php:1256 core/helpers/helper-misc.php:415
 msgid "Slovenia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1258
+#: core/helpers/helper-form-templates.php:1257
 msgid "Slovakia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1259 core/helpers/helper-misc.php:412
+#: core/helpers/helper-form-templates.php:1258 core/helpers/helper-misc.php:412
 msgid "Sierra Leone"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1260 core/helpers/helper-misc.php:407
+#: core/helpers/helper-form-templates.php:1259 core/helpers/helper-misc.php:407
 msgid "San Marino"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1261 core/helpers/helper-misc.php:410
+#: core/helpers/helper-form-templates.php:1260 core/helpers/helper-misc.php:410
 msgid "Senegal"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1262 core/helpers/helper-misc.php:417
+#: core/helpers/helper-form-templates.php:1261 core/helpers/helper-misc.php:417
 msgid "Somalia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1263 core/helpers/helper-misc.php:425
+#: core/helpers/helper-form-templates.php:1262 core/helpers/helper-misc.php:425
 msgid "Suriname"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1264 core/helpers/helper-misc.php:408
+#: core/helpers/helper-form-templates.php:1263 core/helpers/helper-misc.php:408
 msgid "Sao Tome and Principe"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1265 core/helpers/helper-misc.php:288
+#: core/helpers/helper-form-templates.php:1264 core/helpers/helper-misc.php:288
 msgid "El Salvador"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1266 core/helpers/helper-misc.php:430
+#: core/helpers/helper-form-templates.php:1265 core/helpers/helper-misc.php:430
 msgid "Syrian Arab Republic"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1267 core/helpers/helper-misc.php:427
+#: core/helpers/helper-form-templates.php:1266 core/helpers/helper-misc.php:427
 msgid "Swaziland"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1268 core/helpers/helper-misc.php:442
+#: core/helpers/helper-form-templates.php:1267 core/helpers/helper-misc.php:442
 msgid "Turks and Caicos Islands"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1269 core/helpers/helper-misc.php:265
+#: core/helpers/helper-form-templates.php:1268 core/helpers/helper-misc.php:265
 msgid "Chad"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1270 core/helpers/helper-misc.php:435
+#: core/helpers/helper-form-templates.php:1269 core/helpers/helper-misc.php:435
 msgid "Togo"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1271 core/helpers/helper-misc.php:434
+#: core/helpers/helper-form-templates.php:1270 core/helpers/helper-misc.php:434
 msgid "Thailand"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1272 core/helpers/helper-misc.php:432
+#: core/helpers/helper-form-templates.php:1271 core/helpers/helper-misc.php:432
 msgid "Tajikistan"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1273 core/helpers/helper-misc.php:436
+#: core/helpers/helper-form-templates.php:1272 core/helpers/helper-misc.php:436
 msgid "Tokelau"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1274
+#: core/helpers/helper-form-templates.php:1273
 msgid "Timor-leste"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1275 core/helpers/helper-misc.php:441
+#: core/helpers/helper-form-templates.php:1274 core/helpers/helper-misc.php:441
 msgid "Turkmenistan"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1276 core/helpers/helper-misc.php:439
+#: core/helpers/helper-form-templates.php:1275 core/helpers/helper-misc.php:439
 msgid "Tunisia"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1277 core/helpers/helper-misc.php:437
+#: core/helpers/helper-form-templates.php:1276 core/helpers/helper-misc.php:437
 msgid "Tonga"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1278 core/helpers/helper-misc.php:440
+#: core/helpers/helper-form-templates.php:1277 core/helpers/helper-misc.php:440
 msgid "Turkey"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1279 core/helpers/helper-misc.php:438
+#: core/helpers/helper-form-templates.php:1278 core/helpers/helper-misc.php:438
 msgid "Trinidad and Tobago"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1280 core/helpers/helper-misc.php:443
+#: core/helpers/helper-form-templates.php:1279 core/helpers/helper-misc.php:443
 msgid "Tuvalu"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1281 core/helpers/helper-misc.php:431
+#: core/helpers/helper-form-templates.php:1280 core/helpers/helper-misc.php:431
 msgid "Taiwan, Province of China"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1282 core/helpers/helper-misc.php:433
+#: core/helpers/helper-form-templates.php:1281 core/helpers/helper-misc.php:433
 msgid "Tanzania, United Republic of"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1283 core/helpers/helper-misc.php:445
+#: core/helpers/helper-form-templates.php:1282 core/helpers/helper-misc.php:445
 msgid "Ukraine"
 msgstr ""
 
-#: core/helpers/helper-form-templates.php:1284 core/helpers/helper-misc.php:444
+#: core/helpers/helper-form-templates.php:1283 core/helpers/helper-misc.php:444
 msgid "Uganda"
+msgstr ""
+
+#: core/helpers/helper-form-templates.php:1284 core/helpers/helper-misc.php:447
+msgid "United Kingdom"
 msgstr ""
 
 #: core/helpers/helper-form-templates.php:1285 core/helpers/helper-misc.php:448

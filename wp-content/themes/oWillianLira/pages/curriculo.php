@@ -53,34 +53,13 @@ $general = get_page_by_title('General Data')->ID;
                     <h3>Tecnologias</h3>
                     <p class="info">Anos de experiência</p>
 
-                    <div class="item">
-                        <h2>HTML5 + CSS3</h2>
-                        <span class="years">3</span>
-                    </div>
-                    <div class="item">
-                        <h2>JavaScript</h2>
-                        <span class="years">2</span>
-                    </div>
-                    <div class="item">
-                        <h2>WordPress</h2>
-                        <span class="years">2</span>
-                    </div>
-                    <div class="item">
-                        <h2>Bootstrap</h2>
-                        <span class="years">2</span>
-                    </div>
-                    <div class="item">
-                        <h2>jQuery</h2>
-                        <span class="years">1</span>
-                    </div>
-                    <div class="item">
-                        <h2>ReactJS</h2>
-                        <span class="years">1</span>
-                    </div>
-                    <div class="item">
-                        <h2>Git</h2>
-                        <span class="years">1</span>
-                    </div>
+                    <?php $techs = get_field2('technologies');
+                    if(isset($techs)){ foreach ($techs as $tech) { ?>
+                        <div class="item">
+                            <h2><?php echo $tech['name']; ?></h2>
+                            <span class="years"><?php echo $tech['xp']; ?></span>
+                        </div>
+                    <?php }; }; ?>
                 </div>
             </div>
             <div class="col-md-2"></div>

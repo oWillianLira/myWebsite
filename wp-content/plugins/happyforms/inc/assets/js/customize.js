@@ -1072,6 +1072,11 @@
 
 			$( '.happyforms-widget-content', this.$el ).slideToggle( 200, function() {
 				$el.toggleClass( 'happyforms-widget-expanded' );
+
+				if( $el.hasClass( 'happyforms-widget-expanded' ) ) {
+					$( 'input[data-bind=label]', $el ).focus();
+				}
+
 			} );
 
 			happyForms.savedStates.build.activePartIndex = $el.index();

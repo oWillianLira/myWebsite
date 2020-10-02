@@ -4,7 +4,7 @@
 	<label for="<?php echo $control['field']; ?>" class="customize-control-title"><?php echo $control['label']; ?> <?php if ( isset( $control['tooltip'] ) ) : ?><i class="dashicons dashicons-editor-help" aria-hidden="true" data-pointer><span><?php echo $control['tooltip']; ?></span></i><?php endif; ?></label>
 	<select name="<?php echo $control['field']; ?>" id="<?php echo $control['field']; ?>" data-attribute="<?php echo $control['field']; ?>" data-pointer-target>
 	<?php if ( isset( $control['placeholder'] ) ) : ?>
-		<option value="" disabled selected><?php echo $control['placeholder']; ?></option>
+		<option value="" selected><?php echo $control['placeholder']; ?></option>
 	<?php endif; ?>
 	<?php foreach ( $control['options'] as $option => $value ) : ?>
 		<?php if ( is_array( $value ) ) : ?>

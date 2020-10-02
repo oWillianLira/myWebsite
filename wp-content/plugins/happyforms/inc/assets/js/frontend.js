@@ -326,6 +326,11 @@
 
 				this.$el.happyForm();
 
+				// User filterable
+				if ( $form.attr( 'data-happyforms-scroll-disabled' ) ) {
+					return;
+				}
+
 				var elTopOffset = this.$el.offset().top;
 				var $notices = $( '.happyforms-message-notices', this.$el );
 
