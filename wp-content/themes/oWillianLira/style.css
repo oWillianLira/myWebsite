@@ -726,8 +726,70 @@ footer#footer_owl {
     font-weight: 300;
     font-size: 1rem;
 }
-
 /* CV */
+
+/* Portfolio */
+#portf .intro {
+    max-width: 650px;
+    margin-bottom: 50px;
+}
+
+#portf .intro h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--owl-black);
+}
+
+#portf .intro p {
+    color: var(--owl-black);
+    font-size: 1.125rem;
+}
+
+.port_item {
+    margin-bottom: 40px;
+}
+
+.port_item > a {
+    height: 275px;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 15px 0px rgba(3,64,120,0.4); 
+    box-shadow: 0px 2px 15px 0px rgba(3,64,120,0.4);
+    border: solid 2px #aaa;
+    margin-bottom: 20px;
+}
+
+.port_item > a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 500ms;
+}
+
+.port_item > a img:hover {
+    transform: scale(1.1);
+}
+
+.port_item > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.port_item a h4 {
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: var(--owl-dark-blue);
+}
+
+.port_item a svg {
+    fill: var(--owl-dark-blue);
+}
+
+/* Portfolio */
 
 /* RESPONSIVE */
 

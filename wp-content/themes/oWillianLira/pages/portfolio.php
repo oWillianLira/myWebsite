@@ -1,4 +1,5 @@
 <?php 
+// Template Name: Portfolio
 get_header();
 $general = get_page_by_title('General Data')->ID;
 ?>
@@ -28,6 +29,63 @@ $general = get_page_by_title('General Data')->ID;
         </div>
     </div>
 </div>
+
+<section class="sects" id="portf">
+    <div class="container">
+        <div class="intro">
+            <h3>Aqui estão alguns dos sites que eu desenvolvi!</h3>
+            <p>
+                Os que foram desenhados e programados por mim estão marcados com (<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+                <defs>
+                    <clipPath id="clip-path">
+                    <rect id="Retângulo_67" data-name="Retângulo 67" width="20" height="20" transform="translate(924 500)" fill="#5e9dd6"/>
+                    </clipPath>
+                </defs>
+                <g id="Grupo_de_máscara_12" data-name="Grupo de máscara 12" transform="translate(-924 -500)" clip-path="url(#clip-path)">
+                    <path id="byme" d="M6.25,0a2.5,2.5,0,0,0-2.5,2.5V19.375a.625.625,0,0,0,.925.549l6.575-3.587,6.575,3.587a.625.625,0,0,0,.925-.549V2.5A2.5,2.5,0,0,0,16.25,0Zm5.2,5.125a.222.222,0,0,0-.4,0l-.792,1.606a.222.222,0,0,1-.167.122l-1.775.257a.222.222,0,0,0-.122.379L9.475,8.741a.223.223,0,0,1,.064.2l-.3,1.767a.222.222,0,0,0,.322.234l1.587-.835a.222.222,0,0,1,.206,0l1.587.835a.222.222,0,0,0,.321-.234l-.3-1.769a.222.222,0,0,1,.062-.2l1.285-1.251a.222.222,0,0,0-.122-.379L12.41,6.852a.222.222,0,0,1-.167-.122Z" transform="translate(922.75 500)" fill="#5e9dd6" fill-rule="evenodd"/>
+                </g></svg>) os demais eu apenas programei a partir de um layout feito por terceiros.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="port_item">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal">
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2020/10/maia1.jpg">
+                    </a>
+                    <div>
+                        <a href="#" data-toggle="modal" data-target="#exampleModal"><h4>Maia Express - Transportadora</h4></a>
+                        <a target="_blank" href="#">
+                            <svg width="20px" height="20px" viewBox="0 0 16 16" class="bi bi-link-45deg" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.715 6.542L3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.001 1.001 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 0 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 0 0-4.243-4.243L6.586 4.672z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php the_content(); ?>
 <?php endwhile; else: ?>
