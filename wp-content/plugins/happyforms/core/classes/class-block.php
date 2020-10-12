@@ -37,7 +37,7 @@ class HappyForms_Block {
 	private function get_attributes() {
 		$attributes = array(
 			'id' => array(
-				'type' => 'int',
+				'type' => 'integer',
 			)
 		);
 

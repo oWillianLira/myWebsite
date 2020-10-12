@@ -37,3 +37,10 @@ wrapperMenu.addEventListener('click', function(){
   wrapperMenu.classList.toggle('open');  
 })
 // Header owl
+
+// Configuração do LightBox
+lightbox.option({
+    'resizeDuration': 300,
+    'wrapAround': true,
+    'disableScrolling': true,
+});

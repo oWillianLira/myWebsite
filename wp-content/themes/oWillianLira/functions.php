@@ -34,6 +34,17 @@
             get_template_directory_uri() . '/assets/bootstrap/css/bootstrap.min.css'
         );
         
+        // Importando Lightbox
+        wp_enqueue_script( 
+            'Lightbox', 
+            get_template_directory_uri() . '/assets/lightbox/js/lightbox.js', 
+            array(), '2', true
+        );
+        wp_enqueue_style( 
+            'Lightbox', 
+            get_template_directory_uri() . '/assets/lightbox/css/lightbox.css'
+        );
+        
         // Ativando o style.css
         wp_enqueue_style( 
             'owl_css', 

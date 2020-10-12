@@ -5,7 +5,7 @@ Tags: contact, contact form, email, feedback form, form, form builder, custom fo
 Requires at least: 4.8
 Tested up to: 5.5.1
 Requires PHP: 5.3
-Stable tag: 1.9.21
+Stable tag: 1.9.22
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -96,6 +96,10 @@ Absolutely! HappyForms gets out of the way and is designed to work with any them
 Yep! HappyForms free isn't going anywhere but for those looking for even more you may be interested in our [HappyForms upgrade plan](https://happyforms.me/upgrade).
 
 == Changelog ==
+
+= 1.9.22 =
+* Bugfix: Rich text editors in field configuration widgets were misbehaving after a drag and drop operation.
+* Bugfix: A Block Editor block parameter was triggering errors on WordPress >= 5.5.
 
 = 1.9.21 =
 * Improvement: better usability of various elements of Edit Form screen.
@@ -655,6 +659,9 @@ Yep! HappyForms free isn't going anywhere but for those looking for even more yo
 * Initial release.
 
 == Upgrade Notice ==
+
+= 1.9.22 =
+* Minor bugfixes.
 
 = 1.9.21 =
 * Minor improvements and bugfixes.

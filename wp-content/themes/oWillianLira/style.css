@@ -87,6 +87,10 @@ img {
     padding: 75px 0;
 }
 
+.ocultos {
+    display: none;
+}
+
 /* OWL Header */
 
 header#header_owl {
@@ -779,7 +783,7 @@ footer#footer_owl {
     padding: 0 10px;
 }
 
-.port_item a h4 {
+.port_item h4 {
     font-size: 1rem;
     margin-bottom: 0;
     color: var(--owl-dark-blue);

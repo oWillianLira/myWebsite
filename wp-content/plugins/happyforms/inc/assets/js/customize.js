@@ -584,6 +584,7 @@
 			this.listenTo( this.model.get( 'parts' ), 'reset', this.onPartModelsSorted );
 			this.listenTo( this.partViews, 'add', this.onPartViewAdd );
 			this.listenTo( this.partViews, 'remove', this.onPartViewRemove );
+			this.listenTo( this.partViews, 'reset', this.onPartViewsSorted );
 			this.listenTo( this.partViews, 'add remove reset', this.onPartViewsChanged );
 			this.listenTo( this, 'sort-stop', this.onPartSortStop );
 		},
@@ -783,6 +784,18 @@
 			this.model.get( 'parts' ).reset( _.map( ids, function( id ) {
 				return this.model.get( 'parts' ).get( id );
 			}, this ) );
+		},
+
+		onPartViewsSorted: function( partViews ) {	
+			var $stage = $( '.happyforms-form-widgets', this.$el );	
+
+			partViews.forEach( function( partViewModel ) {	
+				var partView = partViewModel.get( 'view' );	
+				var $partViewEl = partView.$el;	
+				$partViewEl.detach();	
+				$stage.append( $partViewEl );	
+				partView.trigger( 'refresh' );	
+			}, this );	
 		},
 
 		onPartViewsChanged: function( partViews ) {

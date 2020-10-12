@@ -11,4 +11,5 @@ function the_field2($key, $page_id = 0) {
 // Requiring the files
 require_once get_template_directory() . '/assets/cmb2/general.php';
 require_once get_template_directory() . '/assets/cmb2/resume.php';
+require_once get_template_directory() . '/assets/cmb2/portfolio.php';
 ?>

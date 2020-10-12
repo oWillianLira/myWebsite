@@ -5,7 +5,7 @@
  * Plugin URI:  https://happyforms.me
  * Description: Your friendly drag and drop contact form builder for creating contact forms, lead generation forms, feedback forms, quote forms, survey forms and more!
  * Author:      HappyForms
- * Version:     1.9.21
+ * Version:     1.9.22
  * Author URI:  https://happyforms.me
  * Upgrade URI: https://happyforms.me/upgrade
  */
@@ -13,7 +13,7 @@
 /**
  * The current version of the plugin.
  */
-define( 'HAPPYFORMS_VERSION', '1.9.21' );
+define( 'HAPPYFORMS_VERSION', '1.9.22' );
 
 if ( ! function_exists( 'happyforms_plugin_file' ) ):
 /**
