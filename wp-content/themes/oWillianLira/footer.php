@@ -6,8 +6,8 @@
                 <div class="txtFooter">
                     <p class="padd_bt_991">
                         Muito obrigado pela sua visita! <br>
-                        Caso não tenha encontrado o que buscava, dê uma olhada no <a href="#">MAPA DO SITE</a>. <br>
-                        E se quiser falar comigo pode me mandar um e-mail ou procurar por @OWILLIANLIRA nas principais redes sociais.
+                        <!-- Caso não tenha encontrado o que buscava, dê uma olhada no <a href="#">MAPA DO SITE</a>. <br> -->
+                        Se quiser falar comigo pode me mandar um e-mail ou procurar por @OWILLIANLIRA nas principais redes sociais.
                     </p>
                 </div>
             </div>

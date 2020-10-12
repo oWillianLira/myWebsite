@@ -107,19 +107,25 @@ $general = get_page_by_title('General Data')->ID;
                         Aqui eu disponibilizo em um formato intuitivo e moderno o meu currículo e também o meu portfólio!
                     </p>
                     <p>
+                        Outro motivo que me levou a desenvolver esse projeto foi ter mais um meio de por em prática minhas habilidades e conhecimentos.
+                    </p>
+                    <!-- <p>
                         Outro motivo que me levou a desenvolver esse projeto foi ter mais um meio de por em prática minhas habilidades e conhecimentos. <br>
                         Pude aplicar e aprimorar meus conhecimentos enquanto desenvolvia todas as etapas desse site, desde domínio e hospedagem, tipografia e cores, desenho do layout e lógica de negócio, até o desenvolvimento e colocá-lo no ar.
-                    </p>
+                    </p> -->
                 </div>
             </div>
             <div class="col-lg-5">
                 <div class="txtBio">
-                    <p class="padd_bt_991">
+                    <p>
+                        Pude aplicar e aprimorar meus conhecimentos enquanto desenvolvia todas as etapas desse site, desde domínio e hospedagem, tipografia e cores, desenho do layout e lógica de negócio, até o desenvolvimento e colocá-lo no ar.
+                    </p>
+                    <!-- <p class="padd_bt_991">
                         E também, é por aqui que eu te ofereço a oportunidade de ter um site feito, assim como esse, 100% à mão por mim para você ou sua empresa! <br>
                         Clique no botão abaixo para descobrir o que torna um site feito à mão a melhor escolha para você, e também para ver as opções de sites que eu ofereço.
                     </p>
 
-                    <a href="#" class="btn_brown">Quero um site</a>
+                    <a href="#" class="btn_brown">Quero um site</a> -->
                 </div>
             </div>
         </div>

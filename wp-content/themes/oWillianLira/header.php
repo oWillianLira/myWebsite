@@ -32,7 +32,7 @@
                     );
                     wp_nav_menu( $args );
                 ?>
-                    <a href="#" class="btn_blue">Quero um site</a>
+                    <!-- <a href="#" class="btn_blue">Quero um site</a> -->
                 </nav>
 
                 <div class="wrapper-menu">
