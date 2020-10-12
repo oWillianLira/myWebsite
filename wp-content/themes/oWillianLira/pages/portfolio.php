@@ -47,26 +47,35 @@ $general = get_page_by_title('General Data')->ID;
             </p>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="port_item">
-                    <a href="<?php echo get_home_url(); ?>/wp-content/uploads/2020/10/maia1.jpg" data-lightbox="maia" data-title="Maia Express">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2020/10/maia1.jpg">
-                    </a>
-                    <div class="ocultos">
-                        <a href="<?php echo get_home_url(); ?>/wp-content/uploads/2020/10/maia2.jpg" data-lightbox="maia" data-title="Maia Express"></a>
-                        <a href="<?php echo get_home_url(); ?>/wp-content/uploads/2020/10/maia3.jpg" data-lightbox="maia" data-title="Maia Express"></a>
-                    </div>
-                    <div>
-                        <h4>Maia Express - Transportadora</h4>
-                        <a target="_blank" href="https://maiaexpress.com.br/">
-                            <svg width="20px" height="20px" viewBox="0 0 16 16" class="bi bi-link-45deg" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.715 6.542L3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.001 1.001 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-                                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 0 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 0 0-4.243-4.243L6.586 4.672z"/>
-                            </svg>
+            <?php
+                $portfolios = get_field2('item_portfolio');
+                if(isset($portfolios)){ foreach ($portfolios as $item) {
+            ?>
+                <div class="col-lg-4 col-md-6">
+                    <div class="port_item">
+                        <a href="<?php echo $item['thumbnail']; ?>" data-lightbox="<?php echo $item['url']; ?>" data-title="<?php echo $item['title']; ?>">
+                            <img src="<?php echo $item['thumbnail']; ?>">
                         </a>
+                        <div class="ocultos">
+                            <?php
+                                $gallery = $item['gallery'];
+                                foreach ( (array) $gallery as $attachment_id => $attachment_url ) {
+                            ?>
+                                <a href="<?php echo $attachment_url; ?>" data-lightbox="<?php echo $item['url']; ?>" data-title="<?php echo $item['title']; ?>"></a>
+                            <?php }; ?>
+                        </div>
+                        <div>
+                            <h4><?php echo $item['title']; ?></h4>
+                            <a target="_blank" href="<?php echo $item['url']; ?>">
+                                <svg width="20px" height="20px" viewBox="0 0 16 16" class="bi bi-link-45deg" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.715 6.542L3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.001 1.001 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                                    <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 0 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 0 0-4.243-4.243L6.586 4.672z"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            <?php }; }; ?>
         </div>
     </div>
 </section>

@@ -12,16 +12,13 @@ function cmb_portfolio() {
     ]);
 
     $group_portfolio = $cmb->add_field( array(
-        'id'          => 'Item',
+        'id'          => 'item_portfolio',
         'type'        => 'group',
-        // 'description' => __( 'Project', 'cmb2' ),
-        // 'repeatable'  => false, // use false if you want non-repeatable group
         'options'     => array(
             'group_title'       => __( 'Project {#}', 'cmb2' ),
             'add_button'        => __( 'Add Another Item', 'cmb2' ),
             'remove_button'     => __( 'Remove Item', 'cmb2' ),
             'sortable'          => true,
-            // 'closed'         => true, // true to have the groups closed by default
             'remove_confirm' => esc_html__( 'Are you sure you want to remove?', 'cmb2' ),
         ),
     ) );
@@ -45,6 +42,14 @@ function cmb_portfolio() {
         'options' => array(
             'url' => false,
         ),
+    ) );
+
+    $cmb->add_group_field( $group_portfolio, array(
+        'name' => 'Gallery',
+        'id'   => 'gallery',
+        'type' => 'file_list',
+        'preview_size' => array( 120, 120 ), 
+        'query_args' => array( 'type' => 'image' ),
     ) );
 
 };
