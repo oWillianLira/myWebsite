@@ -21,8 +21,8 @@ greeting();
 // Saudação por período do dia
 
 // Header owl
+const header = document.querySelector('#header_owl .header_owl');
 $(window).scroll(function() {
-    const header = document.querySelector('#header_owl .header_owl');
     if ($(window).scrollTop() > 100) { 
         header.classList.add('wide');
         header.parentElement.parentElement.classList.add('dark');
@@ -34,7 +34,15 @@ $(window).scroll(function() {
 
 const wrapperMenu = document.querySelector('.wrapper-menu');
 wrapperMenu.addEventListener('click', function(){
-  wrapperMenu.classList.toggle('open');  
+  wrapperMenu.classList.toggle('open');
+  document.querySelector('.header_owl nav.menu_owl').classList.toggle('open');
+})
+
+window.addEventListener('click', function(e){
+    if (!document.querySelector('.header_owl').contains(e.target) && (!document.querySelector('.header_owl').contains(e.target))){
+        wrapperMenu.classList.remove('open');
+        document.querySelector('.header_owl nav.menu_owl').classList.remove('open');
+  } 
 })
 // Header owl
 

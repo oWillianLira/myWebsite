@@ -19,7 +19,7 @@
             <div class="header_owl">
                 <a href="<?php echo get_home_url(); ?>" class="logo_owl">
                     <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2020/09/Logo-name.png"
-                        alt="O Willian Lira">
+                        alt="Willian Lira">
                 </a>
 
                 <nav class="menu_owl">
