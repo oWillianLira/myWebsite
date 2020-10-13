@@ -9,11 +9,16 @@ function greeting() {
     let hour = d.getHours();
 
     if(txt != null) {
-        if(hour >= 0 && hour < 12){
-            txt.innerText = 'bom dia';
-        }
-        else if(hour >= 12 && hour < 18){
-            txt.innerText = 'boa tarde';
+        const h1 = txt.parentElement.innerText;
+        if(h1.includes('Hello')){
+            txt.innerText = 'how are you?'
+        }else {
+            if(hour >= 0 && hour < 12){
+                txt.innerText = 'bom dia';
+            }
+            else if(hour >= 12 && hour < 18){
+                txt.innerText = 'boa tarde';
+            }
         }
     }
 };

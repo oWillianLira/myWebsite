@@ -5,7 +5,8 @@ $general = get_page_by_title('General Data')->ID;
 ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	
-<div id="banner_owl-cv" class="banner_owl" style="background-image: url(<?php echo get_home_url(); ?>/wp-content/uploads/2020/09/bg_cover2.jpg);">
+<div id="banner_owl-cv" class="banner_owl">
+    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2020/09/bg_cover2.jpg);" class="bg_banner">
     <div class="container">
         <h1 class="page_title"><?php the_title(); ?></h1>
         <div class="links">
