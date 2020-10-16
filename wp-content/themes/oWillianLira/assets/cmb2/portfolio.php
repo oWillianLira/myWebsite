@@ -52,5 +52,11 @@ function cmb_portfolio() {
         'query_args' => array( 'type' => 'image' ),
     ) );
 
+    $cmb->add_group_field( $group_portfolio, array(
+        'name' => 'By me?',
+        'id'   => 'byme',
+        'type' => 'checkbox',
+    ) );
+
 };
 ?>

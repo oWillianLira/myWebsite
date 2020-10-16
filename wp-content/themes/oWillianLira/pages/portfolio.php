@@ -54,6 +54,19 @@ $general = get_page_by_title('General Data')->ID;
                 <div class="col-lg-4 col-md-6">
                     <div class="port_item">
                         <a href="<?php echo $item['thumbnail']; ?>" data-lightbox="<?php echo $item['url']; ?>" data-title="<?php echo $item['title']; ?>">
+                            <?php if( $item['byme'] ) : ?>
+                                <div class="byMe">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 20 20">
+                                    <defs>
+                                        <clipPath id="clip-path">
+                                        <rect id="Retângulo_67" data-name="Retângulo 67" width="20" height="20" transform="translate(924 500)" fill="#5e9dd6"/>
+                                        </clipPath>
+                                    </defs>
+                                    <g id="Grupo_de_máscara_12" data-name="Grupo de máscara 12" transform="translate(-924 -500)" clip-path="url(#clip-path)">
+                                        <path id="byme" d="M6.25,0a2.5,2.5,0,0,0-2.5,2.5V19.375a.625.625,0,0,0,.925.549l6.575-3.587,6.575,3.587a.625.625,0,0,0,.925-.549V2.5A2.5,2.5,0,0,0,16.25,0Zm5.2,5.125a.222.222,0,0,0-.4,0l-.792,1.606a.222.222,0,0,1-.167.122l-1.775.257a.222.222,0,0,0-.122.379L9.475,8.741a.223.223,0,0,1,.064.2l-.3,1.767a.222.222,0,0,0,.322.234l1.587-.835a.222.222,0,0,1,.206,0l1.587.835a.222.222,0,0,0,.321-.234l-.3-1.769a.222.222,0,0,1,.062-.2l1.285-1.251a.222.222,0,0,0-.122-.379L12.41,6.852a.222.222,0,0,1-.167-.122Z" transform="translate(922.75 500)" fill="#5e9dd6" fill-rule="evenodd"/>
+                                    </g></svg>
+                                </div>
+                            <?php endif; ?>
                             <img src="<?php echo $item['thumbnail']; ?>">
                         </a>
                         <div class="ocultos">

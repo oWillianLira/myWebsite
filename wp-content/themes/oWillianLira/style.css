@@ -783,6 +783,12 @@ footer#footer_owl {
     transition: all 500ms;
 }
 
+.port_item > a .byMe {
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
 .port_item > a img:hover {
     transform: scale(1.1);
 }
